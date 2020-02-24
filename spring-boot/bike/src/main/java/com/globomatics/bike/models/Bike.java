@@ -21,7 +21,7 @@ public class Bike {
     private String email;
     private String phone;
     private String model;
-    private String setialNumber;
+    private String serialNumber;
     private BigDecimal purchasePrice;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "MM-dd-yy")
@@ -60,12 +60,12 @@ public class Bike {
         this.model = model;
     }
 
-    public String getSetialNumber() {
-        return setialNumber;
+    public String getSerialNumber() {
+        return serialNumber;
     }
 
-    public void setSetialNumber(String setialNumber) {
-        this.setialNumber = setialNumber;
+    public void setSerialNumber(String serialNumber) {
+        this.serialNumber = serialNumber;
     }
 
     public BigDecimal getPurchasePrice() {
